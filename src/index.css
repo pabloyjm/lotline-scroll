@@ -1,0 +1,54 @@
+:root {
+  --ink: #f2f5ef;
+  --soil: #0c110e;
+  --lime: #c8ff4d;
+  --crop: #3f7a45;
+  --font-display: 'Bricolage Grotesque', 'Avenir Next Condensed', 'Arial Narrow', sans-serif;
+  --font-body: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  color-scheme: dark;
+  font-family: var(--font-body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--soil);
+  color: var(--ink);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+  overflow-anchor: none;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--soil);
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+canvas {
+  max-width: none;
+}
+
+::selection {
+  background: rgba(200, 255, 77, 0.35);
+  color: #0c110e;
+}
